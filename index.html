@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   </head>
+
   <body>
     <div class="container">
       <header>
@@ -35,44 +36,44 @@
           <ul role="list">
             <li>
               <div>
-                <input type="checkbox" name="list" id="item-pao-de-forma-01">
-                <label for="item-pao-de-forma-01">Pão de forma</label>
+                <input type="checkbox" name="list" id="pao-de-forma-c88faafd-a055-4fef-9362-347ba3d3efe9">
+                <label for="pao-de-forma-c88faafd-a055-4fef-9362-347ba3d3efe9">Pão de forma</label>
               </div>
 
-              <a role="button">
+              <a role="button" class="delete-link">
                 <img src="assets/icons/recycle-bin.svg" alt="Lixeira">
               </a>
             </li>
 
             <li>
               <div>
-                <input type="checkbox" name="list" id="item-cafe-preto-02">
-                <label for="item-cafe-preto-02">Café preto</label>
+                <input type="checkbox" name="list" id="cafe-preto-5687cdb9-dd62-4074-b6fe-3e0069ab8b3f">
+                <label for="cafe-preto-5687cdb9-dd62-4074-b6fe-3e0069ab8b3f">Café preto</label>
               </div>
 
-              <a role="button">
+              <a role="button" class="delete-link">
                 <img src="assets/icons/recycle-bin.svg" alt="Lixeira">
               </a>
             </li>
 
             <li>
               <div>
-                <input type="checkbox" name="list" id="item-suco-de-laranja-03">
-                <label for="item-suco-de-laranja-03">Suco de laranja</label>
+                <input type="checkbox" name="list" id="suco-de-laranja-3b02490b-e1a2-4c83-844e-31dae078bd39">
+                <label for="suco-de-laranja-3b02490b-e1a2-4c83-844e-31dae078bd39">Suco de laranja</label>
               </div>
 
-              <a role="button">
+              <a role="button" class="delete-link">
                 <img src="assets/icons/recycle-bin.svg" alt="Lixeira">
               </a>
             </li>
 
             <li>
               <div>
-                <input type="checkbox" name="list" id="item-bolacha-04">
-                <label for="item-bolacha-04">Bolacha</label>
+                <input type="checkbox" name="list" id="bolacha-202dddcd-8ff2-4c69-9378-4bd2cd055168">
+                <label for="bolacha-202dddcd-8ff2-4c69-9378-4bd2cd055168">Bolacha</label>
               </div>
 
-              <a role="button">
+              <a role="button" class="delete-link">
                 <img src="assets/icons/recycle-bin.svg" alt="Lixeira">
               </a>
             </li>
@@ -84,12 +85,15 @@
               <span>O item foi removido da lista</span>
             </div>
 
-            <a>
+            <a role="button">
               <img src="assets/icons/delete.svg" alt="Ícone de X.">
             </a>
           </div>
         </section>
       </main>
     </div>
+
+    <script src="scripts/add-item.js"></script>
+    <script src="scripts/remove-item.js"></script>
   </body>
 </html>

@@ -53,6 +53,7 @@ form#add-new-item {
     font: var(--label);
     height: 2.75rem;
     padding-inline: 1.5rem;
+    cursor: pointer;
     text-align: center;
     white-space: nowrap;
 
@@ -63,6 +64,8 @@ form#add-new-item {
 }
 
 section#groceries-list {
+  padding-bottom: 2.375rem;
+
   & ul {
     display: flex;
     flex-direction: column;
