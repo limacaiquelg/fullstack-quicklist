@@ -1,6 +1,6 @@
 # Formação Full-Stack: Lista de Compras
 
-<img src="assets/readme-image.jpg" alt="Banner do Projeto">
+<img src="assets/readme-image.png" alt="Banner do Projeto">
 
 <p align="center">Acesse em: <a href="https://limacaiquelg.github.io/fullstack-quicklist/">https://limacaiquelg.github.io/fullstack-quicklist/</a></p>
 
